@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowUp | Beauty & Skincare</title>
+    <link rel="stylesheet" href="style.css">
+</head><body><!-- Navigation Bar -->
+<header>
+    <h1 class="logo">Glow<span>Up.</span></h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <span>♡</span>
+        <span>🛍️</span>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <p class="tagline">BEAUTY BEGINS WITH YOU</p>
+        <h2>Discover Your<br>Natural Glow ✨</h2>
+        <p>Explore premium skincare and beauty essentials
+           made to bring out your natural beauty.</p>
+        <a href="#products" class="btn">Shop Now →</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600"
+             alt="Skincare Products">
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="categories">
+    <h2>Shop By Category</h2>
+
+    <div class="category-container">
+        <div class="category">💄<h3>Makeup</h3></div>
+        <div class="category">🧴<h3>Skincare</h3></div>
+        <div class="category">🌸<h3>Fragrance</h3></div>
+        <div class="category">✨<h3>Beauty Tools</h3></div>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="products" id="products">
+    <h2>Our Best Sellers</h2>
+    <p class="subtitle">Your beauty favourites, all in one place.</p>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400">
+            <h3>Hydrating Face Serum</h3>
+            <p>★★★★★</p>
+            <h4>₹599</h4>
+            <button onclick="addToCart('Hydrating Face Serum',599)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400">
+            <h3>Luxury Makeup Kit</h3>
+            <p>★★★★★</p>
+            <h4>₹899</h4>
+            <button onclick="addToCart('Luxury Makeup Kit',899)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400">
+            <h3>Daily Skin Cream</h3>
+            <p>★★★★☆</p>
+            <h4>₹499</h4>
+            <button onclick="addToCart('Daily Skin Cream',499)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <h2>About GlowUp</h2>
+    <p>
+        GlowUp is your destination for beauty and skincare.
+        We believe every person deserves to feel confident,
+        beautiful and comfortable in their own skin.
+    </p>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+    <h2>Get 10% OFF Your First Order!</h2>
+    <p>Subscribe to our newsletter for exclusive offers.</p>
+    <input type="email" id="email" placeholder="Enter your email">
+    <button onclick="subscribe()">Subscribe</button>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+    <h2>GlowUp.</h2>
+    <p>Beauty • Confidence • Care</p>
+    <p>Email: support@glowup.com</p>
+    <p>© 2026 GlowUp. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
